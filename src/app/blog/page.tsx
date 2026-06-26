@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowUpRight, Clock, User } from 'lucide-react'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 import { NewsletterForm } from '@/components/ui/NewsletterForm'
 import { BlogCategoryFilter } from '@/components/ui/BlogCategoryFilter'
 

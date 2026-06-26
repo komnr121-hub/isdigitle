@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Target, Megaphone, TrendingUp, Bot, ArrowUpRight, CheckCircle2 } from 'lucide-react'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Digital Marketing — Google Ads, Meta Ads, Social Media & AI Automation',

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ShoppingBag, BarChart, Search, Star, ArrowUpRight, CheckCircle2 } from 'lucide-react'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Amazon Services — Private Label Launch, PPC & Product Hunting',

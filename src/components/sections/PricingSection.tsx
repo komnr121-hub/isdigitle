@@ -3,7 +3,8 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Check, Zap } from 'lucide-react'
-import { SectionHeading, GlowOrb } from '@/components/ui'
+import { GlowOrb } from '@/components/ui'
+import { SectionHeading } from '@/components/ui/SectionHeading'
 import { PRICING_PLANS } from '@/lib/data'
 
 export function PricingSection({ preview = false }: { preview?: boolean }) {

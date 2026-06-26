@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { TrendingUp, Search, MapPin, Settings, ArrowUpRight, CheckCircle2 } from 'lucide-react'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'SEO Services — Technical, Local & E-commerce SEO',

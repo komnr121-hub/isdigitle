@@ -3,7 +3,8 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { TrendingUp, Code2, Layers, ShoppingBag, Megaphone, FileText, ArrowUpRight, Zap, Target, Globe } from 'lucide-react'
-import { SectionHeading, GlowOrb } from '@/components/ui'
+import { GlowOrb } from '@/components/ui'
+import { SectionHeading } from '@/components/ui/SectionHeading'
 import { SERVICES } from '@/lib/data'
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {

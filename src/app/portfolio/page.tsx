@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { PORTFOLIO } from '@/lib/data'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 import { PortfolioCategoryFilter } from '@/components/ui/PortfolioCategoryFilter'
 
 export const metadata: Metadata = {

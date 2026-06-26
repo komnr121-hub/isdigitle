@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
-import { SectionHeading } from '@/components/ui'
+import { SectionHeading } from '@/components/ui/SectionHeading'
 import { PORTFOLIO } from '@/lib/data'
 
 export function PortfolioSection() {

@@ -4,6 +4,10 @@ import { forwardRef } from 'react'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
+// Re-export server-safe components
+export { SectionLabel } from './SectionLabel'
+export { SectionHeading } from './SectionHeading'
+
 // ── Button ─────────────────────────────────────────────
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost' | 'outline'
@@ -51,50 +55,6 @@ export function Badge({ children, variant = 'default', className }: BadgeProps) 
     <span className={cn('inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium border', variants[variant], className)}>
       {children}
     </span>
-  )
-}
-
-// ── SectionLabel ─────────────────────────────────────
-interface SectionLabelProps {
-  children: React.ReactNode
-  className?: string
-}
-
-export function SectionLabel({ children, className }: SectionLabelProps) {
-  return (
-    <div className={cn('inline-flex items-center gap-2 px-4 py-2 glass-strong rounded-full', className)}>
-      <span className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse" />
-      <span className="text-xs font-mono font-medium tracking-widest text-electric uppercase">{children}</span>
-    </div>
-  )
-}
-
-// ── SectionHeading ───────────────────────────────────
-interface SectionHeadingProps {
-  label?: string
-  title: string
-  titleHighlight?: string
-  subtitle?: string
-  center?: boolean
-  className?: string
-}
-
-export function SectionHeading({ label, title, titleHighlight, subtitle, center = true, className }: SectionHeadingProps) {
-  return (
-    <div className={cn('max-w-3xl', center && 'mx-auto text-center', className)}>
-      {label && (
-        <div className="mb-4">
-          <SectionLabel>{label}</SectionLabel>
-        </div>
-      )}
-      <h2 className="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-4">
-        {title}{' '}
-        {titleHighlight && <span className="text-gradient">{titleHighlight}</span>}
-      </h2>
-      {subtitle && (
-        <p className="text-mist text-lg leading-relaxed">{subtitle}</p>
-      )}
-    </div>
   )
 }
 

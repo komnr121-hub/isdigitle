@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { PricingSection } from '@/components/sections/PricingSection'
 import Link from 'next/link'
 import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Pricing — Transparent Monthly Retainers',

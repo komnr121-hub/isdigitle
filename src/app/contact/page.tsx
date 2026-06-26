@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Mail, Phone, MapPin, Clock, MessageSquare, ArrowUpRight } from 'lucide-react'
 import { SITE } from '@/lib/data'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Contact IsDigitle — Let\'s Talk',

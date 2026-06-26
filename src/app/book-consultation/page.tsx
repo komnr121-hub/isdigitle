@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle2, Clock, ArrowUpRight, Shield, MessageSquare } from 'lucide-react'
 import { SITE } from '@/lib/data'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Book a Free Strategy Consultation — IsDigitle',

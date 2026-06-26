@@ -3,7 +3,7 @@ import { Metadata as M } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
 import { SERVICES } from '@/lib/data'
-import { SectionLabel } from '@/components/ui'
+import { SectionLabel } from '@/components/ui/SectionLabel'
 
 export const metadata: Metadata = {
   title: 'Digital Services — SEO, Development, Amazon, Marketing',
