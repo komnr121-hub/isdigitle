@@ -23,7 +23,7 @@ export default function PortfolioPage() {
           <span className="text-gradient">promises</span>
         </h1>
         <p className="text-mist text-xl max-w-2xl mx-auto">
-          Every project tells a story. These are the brands we've helped grow — and the numbers that prove it.
+          Every project tells a story. These are the brands we&apos;ve helped grow — and the numbers that prove it.
         </p>
       </div>
 

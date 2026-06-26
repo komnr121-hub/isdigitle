@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Metadata as M } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
 import { SERVICES } from '@/lib/data'
@@ -32,7 +31,7 @@ export default function ServicesPage() {
           <span className="text-gradient">Expert-Level Only.</span>
         </h1>
         <p className="text-mist text-xl max-w-2xl mx-auto">
-          We don't do average. Every service is delivered by a specialist who does only that — one discipline, mastered completely.
+          We don&apos;t do average. Every service is delivered by a specialist who does only that — one discipline, mastered completely.
         </p>
       </div>
 
@@ -60,7 +59,7 @@ export default function ServicesPage() {
               <div className="flex flex-wrap gap-2">
                 {service.features.map((f) => (
                   <span key={f} className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-white/5 border border-white/5 text-silver">
-                    <CheckCircle2 className="w-3 h-3" style={{ color: service.color }} />
+                    <span style={{ color: service.color }} className="flex"><CheckCircle2 className="w-3 h-3" /></span>
                     {f}
                   </span>
                 ))}

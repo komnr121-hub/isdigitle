@@ -43,7 +43,7 @@ export default function WebDevPage() {
               <span className="text-gradient">as hard as you do</span>
             </h1>
             <p className="text-mist text-lg leading-relaxed mb-8">
-              We don't build pretty brochures. We engineer high-performance digital experiences optimized for speed, conversion, and long-term scale. Every project starts with a performance budget and a conversion goal.
+              We don&apos;t build pretty brochures. We engineer high-performance digital experiences optimized for speed, conversion, and long-term scale. Every project starts with a performance budget and a conversion goal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/book-consultation" className="flex items-center justify-center gap-2 px-7 py-3.5 bg-electric hover:bg-electric-glow text-white font-semibold rounded-xl transition-all duration-200 hover:shadow-electric">
@@ -88,14 +88,14 @@ export default function WebDevPage() {
             {SERVICES.map(({ icon: Icon, color, title, desc, items }) => (
               <div key={title} className="glass rounded-2xl p-7 border border-white/5 hover:border-white/10 transition-all duration-300 hover:-translate-y-0.5">
                 <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${color}15`, border: `1px solid ${color}25` }}>
-                  <Icon className="w-5 h-5" style={{ color }} />
+                  <span style={{ color }} className="flex"><Icon className="w-5 h-5" /></span>
                 </div>
                 <h3 className="font-display text-xl font-bold text-white mb-2">{title}</h3>
                 <p className="text-mist text-sm leading-relaxed mb-5">{desc}</p>
                 <div className="flex flex-wrap gap-2">
                   {items.map((item) => (
                     <span key={item} className="flex items-center gap-1.5 text-xs px-3 py-1 rounded-full bg-white/5 border border-white/5 text-silver">
-                      <CheckCircle2 className="w-3 h-3" style={{ color }} />{item}
+                      <span style={{ color }} className="flex"><CheckCircle2 className="w-3 h-3" /></span>{item}
                     </span>
                   ))}
                 </div>

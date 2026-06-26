@@ -36,7 +36,7 @@ export default function AboutPage() {
             <span className="text-gradient">We built a network.</span>
           </h1>
           <p className="text-mist text-xl leading-relaxed mb-6">
-            IsDigitle was born from a simple frustration: the best digital specialists don't work at agencies. They're independent — running their own practices, doing exceptional work for a handful of clients.
+            IsDigitle was born from a simple frustration: the best digital specialists don&apos;t work at agencies. They&apos;re independent — running their own practices, doing exceptional work for a handful of clients.
           </p>
           <p className="text-mist text-lg leading-relaxed">
             So we built the infrastructure to unite them. 60+ elite practitioners — SEO experts, developers, Amazon specialists, paid media managers — coordinated under one strategy layer, one account management team, and one shared commitment to client outcomes.

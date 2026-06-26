@@ -29,10 +29,10 @@ export default function BookConsultationPage() {
               <span className="text-gradient">change everything</span>
             </h1>
             <p className="text-mist text-lg leading-relaxed mb-8">
-              Our strategy sessions aren't sales pitches. They're working sessions — you'll leave with real insights about your digital position and a clear picture of what's possible. Book a slot that works for you.
+              Our strategy sessions aren&apos;t sales pitches. They&apos;re working sessions — you&apos;ll leave with real insights about your digital position and a clear picture of what&apos;s possible. Book a slot that works for you.
             </p>
 
-            {/* What's included */}
+            {/* What&apos;s included */}
             <div className="space-y-4 mb-10">
               {[
                 'Full digital presence audit (done before the call)',
@@ -113,7 +113,7 @@ export default function BookConsultationPage() {
             {/* Alternative contact */}
             <div className="grid grid-cols-2 gap-4">
               <a
-                href={`https://wa.me/${SITE.whatsapp}?text=Hi, I'd like to book a strategy call with IsDigitle`}
+                href={`https://wa.me/${SITE.whatsapp}?text=Hi, I&apos;d like to book a strategy call with IsDigitle`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-2 glass rounded-xl p-5 border border-[#25D366]/20 hover:bg-[#25D366]/5 transition-all text-center"

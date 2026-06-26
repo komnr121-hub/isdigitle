@@ -41,7 +41,7 @@ export default function DigitalMarketingPage() {
           {CHANNELS.map(({ icon: Icon, color, name, desc }) => (
             <div key={name} className="glass rounded-2xl p-7 border border-white/5 hover:border-white/10 transition-all duration-300 hover:-translate-y-0.5">
               <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${color}15`, border: `1px solid ${color}25` }}>
-                <Icon className="w-5 h-5" style={{ color }} />
+                <span style={{ color }} className="flex"><Icon className="w-5 h-5" /></span>
               </div>
               <h3 className="font-display text-xl font-bold text-white mb-2">{name}</h3>
               <p className="text-mist text-sm leading-relaxed">{desc}</p>

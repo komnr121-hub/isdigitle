@@ -98,7 +98,7 @@ export default function SEOPage() {
                 <div key={pkg.name} className="glass rounded-2xl p-7 border border-white/5 hover:border-white/10 transition-all duration-300 hover:-translate-y-0.5">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-11 h-11 rounded-xl flex items-center justify-center" style={{ backgroundColor: `${pkg.color}15`, border: `1px solid ${pkg.color}25` }}>
-                      <Icon className="w-5 h-5" style={{ color: pkg.color }} />
+                      <span style={{ color: pkg.color }} className="flex"><Icon className="w-5 h-5" /></span>
                     </div>
                     <h3 className="font-display text-xl font-bold text-white">{pkg.name}</h3>
                   </div>
@@ -106,7 +106,7 @@ export default function SEOPage() {
                   <ul className="space-y-2">
                     {pkg.features.map((f) => (
                       <li key={f} className="flex items-center gap-2 text-silver text-sm">
-                        <CheckCircle2 className="w-3.5 h-3.5 flex-shrink-0" style={{ color: pkg.color }} />
+                        <span style={{ color: pkg.color }} className="flex flex-shrink-0"><CheckCircle2 className="w-3.5 h-3.5" /></span>
                         {f}
                       </li>
                     ))}
@@ -123,7 +123,7 @@ export default function SEOPage() {
         <h2 className="font-display text-4xl font-bold text-white mb-4">
           Start ranking. <span className="text-gradient">Stop paying for clicks.</span>
         </h2>
-        <p className="text-mist mb-8 max-w-xl mx-auto">Free SEO audit included with every discovery call. We'll show you exactly what's holding your rankings back.</p>
+        <p className="text-mist mb-8 max-w-xl mx-auto">Free SEO audit included with every discovery call. We'll show you exactly what&apos;s holding your rankings back.</p>
         <Link href="/book-consultation" className="inline-flex items-center gap-2 px-8 py-4 bg-electric hover:bg-electric-glow text-white font-semibold rounded-xl transition-all duration-200 hover:shadow-electric">
           Claim Your Free SEO Audit
           <ArrowUpRight className="w-4 h-4" />

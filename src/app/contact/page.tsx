@@ -20,7 +20,7 @@ export default function ContactPage() {
             <span className="text-gradient">remarkable</span>
           </h1>
           <p className="text-mist text-xl max-w-xl mx-auto">
-            Whether you have a project in mind, a question, or just want to explore what's possible — we're here.
+            Whether you have a project in mind, a question, or just want to explore what&apos;s possible — we&apos;re here.
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export default function ContactPage() {
                 <label className="block text-mist text-sm mb-2">Tell us about your project *</label>
                 <textarea
                   rows={5}
-                  placeholder="Describe your goals, challenges, and what you're looking to achieve..."
+                  placeholder="Describe your goals, challenges, and what you&apos;re looking to achieve..."
                   className="w-full bg-ash border border-white/10 focus:border-electric/50 text-white placeholder:text-mist/50 rounded-xl px-4 py-3 text-sm outline-none transition-colors resize-none"
                   required
                 />

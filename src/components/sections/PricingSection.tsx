@@ -71,7 +71,7 @@ export function PricingSection({ preview = false }: { preview?: boolean }) {
                 <ul className="space-y-3 flex-1 mb-8">
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
-                      <Check className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: plan.color }} />
+                      <span style={{ color: plan.color }} className="flex mt-0.5 flex-shrink-0"><Check className="w-4 h-4" /></span>
                       <span className="text-silver text-sm">{feature}</span>
                     </li>
                   ))}

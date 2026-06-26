@@ -57,7 +57,7 @@ export function ServicesSection() {
                     className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110"
                     style={{ backgroundColor: `${service.color}15`, border: `1px solid ${service.color}20` }}
                   >
-                    <Icon className="w-6 h-6" style={{ color: service.color }} />
+                    <span style={{ color: service.color }} className="flex"><Icon className="w-6 h-6" /></span>
                   </div>
 
                   {/* Content */}
